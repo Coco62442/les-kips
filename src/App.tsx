@@ -13,21 +13,20 @@ import MenuIcon from '@mui/icons-material/Menu';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-      <AppBar position="static">
-        <Toolbar variant="dense">
-          <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" color="inherit" component="div">
-            Accueuil
-          </Typography>
-        </Toolbar>
-      </AppBar>
-          <Routes>
-            <Route path="/" element={<Accueil/>}/>
-          </Routes>
-      </BrowserRouter>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
