@@ -1,11 +1,12 @@
-function Home() {
+function Aide() {
     return(
         <div>
             <p>
-                Home
+                Page pour l'aide !
             </p>
         </div>
+        
     )
 }
 
-export default Home
+export default Aide

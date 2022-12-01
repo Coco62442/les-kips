@@ -2,24 +2,25 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Home from './Pages/Home';  
-import Accueil from './Pages/Accueil';
+import Sante from './Pages/Sante';
+import BienEtre from './Pages/BienEtre';
+import Aide from './Pages/Aide'
 import {Routes, Route, Link, BrowserRouter} from 'react-router-dom'
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
 
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Link to='./Accueil'>Accueil</Link>
         <Link to='./'>Home</Link>
+        <Link to='./Sante'>Santé</Link>
+        <Link to='./BienEtre'>Bien-être</Link>
+        <Link to='./Aide'>Aide</Link>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/Accueil" element={<Accueil/>}/>
+          <Route path="/Sante" element={<Sante/>}/>
+          <Route path="/BienEtre" element={<BienEtre/>}/>
+          <Route path="/Aide" element={<Aide/>}/>
         </Routes>
       </BrowserRouter>
     </div>
