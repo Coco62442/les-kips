@@ -6,7 +6,7 @@ import Sante from './Pages/Sante';
 import BienEtre from './Pages/BienEtre';
 import Aide from './Pages/Aide';
 import Jeu from './Pages/Jeu';
-import {Routes, Route, Link, BrowserRouter} from 'react-router-dom'
+import {Routes, Route, BrowserRouter} from 'react-router-dom'
 import ResponsiveAppBar from './components/navbar';
 
 
