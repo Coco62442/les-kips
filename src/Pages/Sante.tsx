@@ -1,12 +1,4 @@
-<<<<<<< HEAD
 import "./css/Sante.css"
-=======
-const stylesante = {
-
-}
-
-
->>>>>>> 4480addb6b1184f551e602acb3bdb70006be99b8
 
 function Sante() {
     return(
