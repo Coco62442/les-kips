@@ -8,10 +8,6 @@ type CartesAccueilComponentProps = {
 }
 
 const CartesAccueilComponent = ({ title, paragraph, couleur }: CartesAccueilComponentProps) => {
-  const compStyle = {
-    
-  }
-
   return (
   <aside>
       <div className="card card-1">
