@@ -11,6 +11,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from 'react-router-dom';
+import logo from '../image/logo.png';
 
 const pages = [['', 'Accueil'], ['Sante', 'Santé'], ['Bienetre', 'Bien être'], ['Aide', 'Aide'], ['Jeu', 'Le Jeu !']];
 
@@ -28,7 +29,7 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ backgroundColor: "#C39BD3" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* Menu burger */}
@@ -109,6 +110,7 @@ function ResponsiveAppBar() {
           </Typography>
 
           {/* Responsive logo + nom */}
+          <img src={logo} alt="logo" width="50" height="50" />
           <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"

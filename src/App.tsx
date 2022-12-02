@@ -1,5 +1,3 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Accueil from './Pages/Accueil';  
 import Sante from './Pages/Sante';
