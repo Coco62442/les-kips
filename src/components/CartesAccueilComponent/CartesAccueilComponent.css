@@ -2,7 +2,7 @@
 
 
   .card {
-    margin: 20px;
+    margin: 10px;
     padding: 20px;
     width: 500px;
     min-height: 200px;
@@ -45,5 +45,5 @@
   /* CARD BACKGROUNDS */
   
   .card-1 {
-    background: radial-gradient(#1fe4f5, #3fbafe);
+    background: radial-gradient(#f53c1f, #feeb3f);
   }
