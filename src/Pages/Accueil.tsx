@@ -13,6 +13,7 @@ function Accueil() {
 Ici vous pouvez vous informer sur les IST les plus communes et la contraception en répondant aux questions que vous n’osez pas poser par peur, honte ou tabou.
 L’orientation sexuelle qui est de plus en plus un sujet de société est également abordée, comme les notions de consentement et de préjugé.
 Vous trouverez également des contacts, des spécialistes de santé et des liens utiles, auprès desquels vous pouvez solliciter de l’aide.
+Les graphique ont été largement inspirés de la charte graphique de l’artiste Scott Martin (https://burnttoastcreative.com/).
 </p>
             
             </div>
