@@ -1,7 +1,3 @@
-const stylesante = {
-
-}
-
 
 
 function Sante() {
