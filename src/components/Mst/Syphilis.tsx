@@ -10,7 +10,7 @@ export default function Syphilis() {
   return (
     <Card
       sx={{
-        border: '1px solid rgba(211,211,211,0.6)', cursor: "pointer"
+        border: '1px solid rgba(211,211,211,0.6)', cursor: "pointer", background: "radial-gradient(#F1948A, #F5B7B1)"
       }}
     >
       <CardHeader title="Syphilis" onClick={() => setOpen(!open)} />

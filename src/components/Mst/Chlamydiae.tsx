@@ -10,7 +10,7 @@ export default function Chlamydiae() {
   return (
     <Card
       sx={{
-        border: '1px solid rgba(211,211,211,0.6)', cursor: "pointer",
+        border: '1px solid rgba(211,211,211,0.6)', cursor: "pointer"
       }}
     >
       <CardHeader title="Chlamydiae" onClick={() => setOpen(!open)} />

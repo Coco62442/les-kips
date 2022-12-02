@@ -10,7 +10,7 @@ export default function Sida() {
   return (
     <Card
       sx={{
-        border: '1px solid rgba(211,211,211,0.6)', cursor: "pointer"
+        border: '1px solid rgba(211,211,211,0.6)', cursor: "pointer", background: "radial-gradient(#F1948A, #F5B7B1)"
       }}
     >
       <CardHeader title="Sida/VIH" onClick={() => setOpen(!open)} />
