@@ -9,9 +9,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from 'react-router-dom';
-import logo from '../image/logo.png';
+import logo from '../images/logo.png';
 
 const pages = [['', 'Accueil'], ['Sante', 'Santé'], ['Bienetre', 'Bien être'], ['Aide', 'Aide'], ['Jeu', 'Le Jeu !']];
 
@@ -90,7 +89,6 @@ function ResponsiveAppBar() {
           </Box>
 
           {/* Logo + nom */}
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
             variant="h6"
             noWrap
@@ -111,7 +109,6 @@ function ResponsiveAppBar() {
 
           {/* Responsive logo + nom */}
           <img src={logo} alt="logo" width="50" height="50" />
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
             noWrap
@@ -124,7 +121,7 @@ function ResponsiveAppBar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherite',
+              color: 'white',
               textDecoration: 'none',
             }}
           >
