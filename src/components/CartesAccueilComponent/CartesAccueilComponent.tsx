@@ -9,19 +9,21 @@ type CartesAccueilComponentProps = {
 
 const CartesAccueilComponent = ({ title, paragraph, couleur }: CartesAccueilComponentProps) => {
   const compStyle = {
-    background: couleur
-  }
-  return (<aside>
-    <div className="CartesAccueilComponent" style={compStyle}>
-      <h3>{ title }</h3>
-
-      <ul>
-        {paragraph.map((paragraph)=>{
-            return <li>{paragraph}</li>
-        })}
-      </ul>
-    </div>
     
+  }
+
+  return (
+  <aside>
+      <div className="card card-1">
+        <div className="card__icon">
+          <h2>{ title }</h2>
+        </div>
+        <div className="containerParagraph">
+          {paragraph.map((paragraph)=>{
+              return <h3 className="card__paragraph">{paragraph}</h3>
+          })}
+        </div>
+      </div>
   </aside>)
   }
 
