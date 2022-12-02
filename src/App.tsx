@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Home from './Pages/Home';  
+import Accueil from './Pages/Accueil';  
 import Sante from './Pages/Sante';
 import BienEtre from './Pages/BienEtre';
 import Aide from './Pages/Aide';
@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
       <ResponsiveAppBar/>
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<Accueil/>}/>
           <Route path="/Sante" element={<Sante/>}/>
           <Route path="/BienEtre" element={<BienEtre/>}/>
           <Route path="/Aide" element={<Aide/>}/>

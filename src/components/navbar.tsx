@@ -12,7 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { Link } from 'react-router-dom';
 
-const pages = ['Santé', 'Bien être', 'Aide', 'Jeu'];
+const pages = [['', 'Accueil'], ['Sante', 'Santé'], ['Bienetre', 'Bien être'], ['Aide', 'Aide'], ['Jeu', 'Le Jeu !']];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
@@ -62,11 +62,13 @@ function ResponsiveAppBar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">
-                        <Link to={`/${page}`}>{page}</Link>
-                    </Typography>
-                </MenuItem>
+                <Link to={`/${page[0]}`}>
+                  <MenuItem key={page[0]} onClick={handleCloseNavMenu}>
+                      <Typography textAlign="center">
+                          {page[1]}
+                      </Typography>
+                  </MenuItem>
+                </Link>
               ))}
             </Menu>
           </Box>
@@ -74,13 +76,15 @@ function ResponsiveAppBar() {
           {/* Map des pages */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                <Link to={`/${page}`}>{page}</Link>
-              </Button>
+              <Link to={`/${page[0]}`}>
+                  <Button
+                  key={page[0]}
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: 'white', display: 'block' }}
+                >
+                  {page[1]}
+                </Button>
+              </Link>
             ))}
           </Box>
 
