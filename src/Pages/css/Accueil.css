@@ -4,3 +4,20 @@
     justify-items: center;
     margin: 5em 10em 0 10em;
 }
+
+.QuiSomme {
+    display: inline-block;
+    width: 55%;
+}
+
+#dessin {
+    display: inline-block;
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+}
+
+#dessin img {
+    width: 100%;
+    height: auto;
+}

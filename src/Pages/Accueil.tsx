@@ -1,5 +1,6 @@
 import CartesAccueilComponent from "../components/CartesAccueilComponent/CartesAccueilComponent";
 import './css/Accueil.css';
+import imageAc from '../images/imageAccueil.png'
 
 
 function Accueil() {
@@ -13,11 +14,12 @@ Ici vous pouvez vous informer sur les IST les plus communes et la contraception 
 L’orientation sexuelle qui est de plus en plus un sujet de société est également abordée, comme les notions de consentement et de préjugé.
 Vous trouverez également des contacts, des spécialistes de santé et des liens utiles, auprès desquels vous pouvez solliciter de l’aide.
 </p>
+            
             </div>
-
             <div id='dessin'>
-                Image
+                <img src={imageAc} alt="image page principal" />
             </div>
+            
             
 
             <div className="Categories">
