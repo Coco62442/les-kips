@@ -13,7 +13,7 @@ export default function Sida() {
         border: '1px solid rgba(211,211,211,0.6)', cursor: "pointer"
       }}
     >
-      <CardHeader title="SIDA/VIH" onClick={() => setOpen(!open)} />
+      <CardHeader title="Sida/VIH" onClick={() => setOpen(!open)} />
       <div style={{ backgroundColor: 'rgba(211,211,211,0.4)' }}>
         <Collapse in={open} timeout="auto" unmountOnExit>
           <CardContent>
