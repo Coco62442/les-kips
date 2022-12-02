@@ -22,6 +22,15 @@ function App() {
           <Route path="/Aide" element={<Aide/>}/>
           <Route path="/Jeu" element={<Jeu/>}></Route>
         </Routes>
+        <footer>
+          <div>
+            <p>Laura Benaiton</p>
+            <p>Alexis Fondard Martin</p>
+            <p>© 2021 Les Kips</p>
+            <p>Kylian Thezinas</p>
+            <p>Corentin Clément</p>
+          </div>
+        </footer>
       </BrowserRouter>
     </div>
   );
