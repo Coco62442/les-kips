@@ -27,7 +27,7 @@ function App() {
             <p>Laura Benaiton</p>
             <p>Alexis Fondard Martin</p>
             <p>© 2021 Les Kips</p>
-            <p>Kylian Thezinas</p>
+            <p>Kylian Thezenas</p>
             <p>Corentin Clément</p>
           </div>
         </footer>

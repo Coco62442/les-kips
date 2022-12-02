@@ -8,7 +8,7 @@ function Accueil() {
         <div>
             <div className="QuiSomme">
                 <h2>Qui sommes nous ?</h2>
-                <p>Ce site est un projet dans le cadre de la nuit de l’info. Missionnée par info sida, nous sommes quatre étudiants en informatique dont l’objectif est de répondre au travers de ce site aux questions que les plus jeunes sont susceptibles de se poser sur la sexualité et les maladies sexuellement transmissibles.
+                <p style={{textAlign:"center",paddingLeft:"1.5rem",paddingRight:"1.5rem"}}>Ce site est un projet dans le cadre de la nuit de l’info. Missionnée par info sida, nous sommes quatre étudiants en informatique dont l’objectif est de répondre au travers de ce site aux questions que les plus jeunes sont susceptibles de se poser sur la sexualité et les maladies sexuellement transmissibles.
 
 Ici vous pouvez vous informer sur les IST les plus communes et la contraception en répondant aux questions que vous n’osez pas poser par peur, honte ou tabou.
 L’orientation sexuelle qui est de plus en plus un sujet de société est également abordée, comme les notions de consentement et de préjugé.

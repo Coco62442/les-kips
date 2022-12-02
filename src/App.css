@@ -43,3 +43,7 @@ footer div {
   align-items: center;
   margin: 0 10em;
 }
+
+footer {
+  padding: 2em 0;
+}
