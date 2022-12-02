@@ -14,16 +14,16 @@ const CartesAccueilComponent = ({ title, paragraph, couleur }: CartesAccueilComp
 
   return (
   <aside>
-    <div className="cards">
       <div className="card card-1">
         <div className="card__icon">
           <h2>{ title }</h2>
         </div>
-        {paragraph.map((paragraph)=>{
-            return <h3 className="card__paragraph">{paragraph}</h3>
-        })}
+        <div className="containerParagraph">
+          {paragraph.map((paragraph)=>{
+              return <h3 className="card__paragraph">{paragraph}</h3>
+          })}
+        </div>
       </div>
-    </div>    
   </aside>)
   }
 

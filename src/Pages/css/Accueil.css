@@ -1,0 +1,6 @@
+.Categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin: 5em 10em 0 10em;
+}
