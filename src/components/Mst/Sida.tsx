@@ -5,21 +5,20 @@ import CardContent from '@mui/material/CardContent';
 import Container from '@mui/material/Container';
 import Collapse from '@mui/material/Collapse';
 
-export default function ExpandCard() {
+export default function Sida() {
   const [open, setOpen] = useState(false);
   return (
     <Card
       sx={{
-        border: '1px solid rgba(211,211,211,0.6)',
+        border: '1px solid rgba(211,211,211,0.6)', cursor: "pointer"
       }}
     >
-      <CardHeader title="SIDA/VIH" onClick={() => setOpen(!open)} />
+      <CardHeader title="Sida/VIH" onClick={() => setOpen(!open)} />
       <div style={{ backgroundColor: 'rgba(211,211,211,0.4)' }}>
         <Collapse in={open} timeout="auto" unmountOnExit>
           <CardContent>
             <Container sx={{ lineHeight: 1 }}>
-              <p>
-                <h5> LE VIH/SIDA, C’EST QUOI ? </h5> Son nom signifie Virus de
+            <h5> LE VIH/SIDA, C’EST QUOI ? </h5> Son nom signifie Virus de
                 l’Immunodéficience Humaine. Il attaque le système immunitaire
                 des personnes porteuses et le détruit petit à petit. Le Sida
                 (Syndrome d’Immunodéficience Acquise) est un stade avancé du
@@ -92,7 +91,6 @@ export default function ExpandCard() {
                 est prescrit, après évaluation du risque par un médecin, dans
                 tous les Cegidd, dans les services de maladies infectieuses et
                 dans les services d’urgences.
-              </p>
             </Container>
           </CardContent>
         </Collapse>

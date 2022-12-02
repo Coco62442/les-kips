@@ -1,7 +1,7 @@
 import CartesAccueilComponent from "../components/CartesAccueilComponent/CartesAccueilComponent";
 import './css/Accueil.css';
-import imageAc from '../images/imageAccueil.png'
-
+import imageAc from '../images/imageAccueil.png';
+import {Link} from "react-router-dom";
 
 function Accueil() {
     return(
@@ -23,10 +23,18 @@ Vous trouverez également des contacts, des spécialistes de santé et des liens
             
 
             <div className="Categories">
-                <CartesAccueilComponent title="Santé" paragraph={["Info IST","Contraception", "Questionnement fréquent"]} couleur="blue"></CartesAccueilComponent>
-                <CartesAccueilComponent title="Bien-être" paragraph={["Orientation sexuelle","Consentement", "Tabous et préjugés"]} couleur="red"></CartesAccueilComponent>
-                <CartesAccueilComponent title="Aide" paragraph={["Contacts", "Les lieux où se rendre", "Liens utiles"]} couleur="yellow"></CartesAccueilComponent>
-                <CartesAccueilComponent title="Le Jeu" paragraph={["Suit les questionnements du héros pour l'aider à passer la meilleure sortie dont-il se rappellera toute sa vie"]} couleur="black"></CartesAccueilComponent>
+                <Link to='/Sante'>
+                    <CartesAccueilComponent title="Santé" paragraph={["Info IST","Contraception", "Questionnement fréquent"]} couleur="blue"></CartesAccueilComponent>
+                </Link>
+                <Link to='/Bienetre'>
+                    <CartesAccueilComponent title="Bien-être" paragraph={["Orientation sexuelle","Consentement", "Tabous et préjugés"]} couleur="red"></CartesAccueilComponent>
+                </Link>
+                <Link to='/Aide'>
+                    <CartesAccueilComponent title="Aide" paragraph={["Contacts", "Les lieux où se rendre", "Liens utiles"]} couleur="yellow"></CartesAccueilComponent>
+                </Link>
+                <Link to='/Jeu'>
+                    <CartesAccueilComponent title="Le Jeu" paragraph={["Suit les questionnements du héros pour l'aider à passer la meilleure sortie dont-il se rappellera toute sa vie"]} couleur="black"></CartesAccueilComponent>
+                </Link>
                 {/* 4 Cartes (boutton) sur les différentes catégories Santé/Bien être/Aide/Le jeu */}
             </div>
         </div>
