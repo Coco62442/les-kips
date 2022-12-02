@@ -105,7 +105,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            NOM COMPLET
+            PARLE SANTE
           </Typography>
 
           {/* Responsive logo + nom */}
@@ -122,11 +122,11 @@ function ResponsiveAppBar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: 'inherite',
               textDecoration: 'none',
             }}
           >
-            NOM COMPLET
+            PARLE SANTE
           </Typography>
         </Toolbar>
       </Container>
