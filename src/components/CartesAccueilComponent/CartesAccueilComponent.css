@@ -33,6 +33,7 @@
   .containerParagraph {
     display: flex;
     flex-direction: column;
+    margin-top:.6rem;
   }
   
   .card__paragraph {
@@ -45,5 +46,5 @@
   /* CARD BACKGROUNDS */
   
   .card-1 {
-    background: radial-gradient(#f53c1f, #feeb3f);
+    background: radial-gradient(#F1948A, #F5B7B1);
   }
